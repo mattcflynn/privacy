@@ -5,7 +5,7 @@ referenced from App Store Connect as the Privacy Policy URL for each app.
 
 | App | URL |
 |---|---|
-| Long Player | `https://mattcflynn.github.io/privacy/long-player/` |
+| Album Yearbook | `https://mattcflynn.github.io/privacy/album-yearbook/` |
 | StudioScan | `https://mattcflynn.github.io/privacy/studioscan/` |
 | TrailDot | `https://mattcflynn.github.io/privacy/traildot/` |
 

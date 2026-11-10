@@ -10,7 +10,7 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-for page in long-player/index.html studioscan/index.html traildot/index.html; do
+for page in album-yearbook/index.html studioscan/index.html traildot/index.html; do
   # The address, in both the mailto: and the visible link text.
   sed -i '' "s/apps@example\.com/$1/g" "$page"
   # The banner is one line; drop it whole.
