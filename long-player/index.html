@@ -22,7 +22,7 @@
 
   <p class="eyebrow">CamberCraft LLC</p>
   <h1>Long Player</h1>
-  <p class="updated">Last updated 15 September 2026</p>
+  <p class="updated">Last updated 10 November 2026</p>
 
   <p class="lede"><strong>Long Player collects no personal data whatsoever.</strong> There is no account, no sign-in, no analytics, no advertising, no tracking, and no third-party SDK of any kind. Nothing you do in the app is sent to us or to anyone else.</p>
 
@@ -44,11 +44,13 @@
   <p>Sync is off by default unless you choose to turn it on, and disabling it immediately stops synchronization.</p>
 
   <h2>Network connections</h2>
-  <p>Long Player makes no connection to any server we control. It has exactly two reasons to reach the network, both directly to Apple:</p>
+  <p>Long Player makes no connection to any server we control. Every connection it makes goes directly to Apple, for one of three reasons:</p>
   <ul>
     <li><strong>Apple Music catalog lookups</strong> (via MusicKit), to verify an album's full tracklist so the app can distinguish a complete album from one missing tracks. This requires an active Apple Music subscription; without one, the app falls back to what your local library alone provides.</li>
-    <li><strong>A single public iTunes lookup</strong> that trades a song's store identifier for its album identifier, so "play this album in Music" opens the correct record. It carries no personal identifier, requires no key, and we never receive the request or its response.</li>
+    <li><strong>Public iTunes lookups</strong>, which send a song's store identifier and your device's region code to Apple's public lookup service. The app uses the answer to open the correct album in Music, to find an album's original release year, and to find its cover.</li>
+    <li><strong>Cover downloads</strong> from Apple's image servers, only for albums whose artwork is not already on your device. Covers are then kept in the app's cache.</li>
   </ul>
+  <p>These requests carry no account, no key and no identifier we assign, and we never receive them or their responses. As with any internet connection, Apple's servers see your IP address; Apple's handling of it is governed by the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</p>
   <p>There are no analytics, no crash reporting, no advertising identifiers, and no tracking as defined by Apple's App Tracking Transparency. The app's privacy manifest strictly declares this.</p>
 
   <h2>Children</h2>
