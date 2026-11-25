@@ -1,13 +1,13 @@
 # Privacy policies
 
-Published at **<https://mattcflynn.github.io/privacy/>** via GitHub Pages, and
+Published at **<https://cambercraft.com/privacy/>** via GitHub Pages, and
 referenced from App Store Connect as the Privacy Policy URL for each app.
 
 | App | URL |
 |---|---|
-| Album Yearbook | `https://mattcflynn.github.io/privacy/album-yearbook/` |
-| StudioScan | `https://mattcflynn.github.io/privacy/studioscan/` |
-| TrailDot | `https://mattcflynn.github.io/privacy/traildot/` |
+| Album Yearbook | `https://cambercraft.com/privacy/album-yearbook/` |
+| StudioScan | `https://cambercraft.com/privacy/studioscan/` |
+| TrailDot | `https://cambercraft.com/privacy/traildot/` |
 
 App Store Connect requires a privacy policy URL even when an app collects
 nothing, which all three of these do. Each page is specific about what its app
